@@ -1,0 +1,43 @@
+body{
+	display: flex;
+	justify-content: center;
+}
+.main{
+	border-radius: 50%;
+	border: 10px solid pink;
+	width:250px;
+	height: 250px;
+	bottom:30%;
+	position : absolute;
+	background-image: linear-gradient(#F20000,#D996C0);
+
+}
+.seconds,.minute,.hour{
+	left :50%;
+	bottom:50%;
+	position: absolute;
+	transform-origin: bottom;
+	background-color: black;
+	animation-name: clock;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.seconds{
+	height:100px;
+	width:1px;
+	animation-duration: 6s;
+}
+.minute{
+	height:70px;
+	width:3px;
+	animation-duration: 10s;
+}
+.hour{
+	height:60px;
+	width:5px;
+	animation-duration: 20s;
+}
+@keyframes clock{
+	0% { transform: rotate(0deg) }
+	100% { transform: rotate(360deg); }
+}
