@@ -1,0 +1,38 @@
+body{
+	display:flex;
+	justify-content: center;
+	font-family:Georgia;
+	font-weight: bold;
+	color:white;
+	padding-top: 30px;
+	background-image:url("https://data.whicdn.com/images/309891017/original.gif");
+}
+
+
+.grid{
+	display: grid;
+	width:50rem;
+	grid-template-columns: repeat(4, 9rem);
+	grid-auto-rows: 9rem;
+	justify-content: center;
+	column-gap:4px;
+	grid-row-gap: 4px;
+}
+
+
+.items{
+	background-color: rgba(240, 91, 173,0.5);;
+ 	border:3px solid pink;
+  	border-radius: 8px;
+  	padding-top: 10px;
+  	box-shadow:5px 5px 8px rgba(105, 100, 103,1);
+}
+.items:hover{
+	cursor: pointer;
+}
+
+.itemclicked{
+	background-color: white;
+	border:none;
+}
+
