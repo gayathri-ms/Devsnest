@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>THA-9</title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	
+</head>
+<body>
+	<div>
+		<div class="grid2">
+			<p>Booked Seats</p>
+			<p>Unbooked Seats</p>
+			<p class="para"></p>
+			<p class="unbook"></p>
+		</div>
+		<div class="grid">
+			<script type="text/javascript">	
+				for(let i=0;i<36;i++)
+				{
+					var x=document.createElement("div");
+					x.className +="items";
+					x.setAttribute('id',i+1)
+					document.querySelector(".grid").appendChild(x);
+				}
+			</script>
+		</div>
+		<script type="text/javascript" src="./script.js"></script>
+	</div>
+</body>
+</html>
