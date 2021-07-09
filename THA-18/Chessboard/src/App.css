@@ -1,0 +1,21 @@
+.card2{
+  height: 240px;
+  width:240px;
+  margin-top: 50px;
+  padding:0.5px;
+  border-radius: 5px;
+  border:10px solid black;
+}
+.row{
+  display: flex;
+}
+.card3,.card4{
+  height:30px;
+  width:30px;
+}
+.card3{
+  background-color: black;
+}
+.card4{
+  background-color: white;
+}
