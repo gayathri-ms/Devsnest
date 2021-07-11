@@ -1,0 +1,17 @@
+button {
+  margin-left: 15px;
+  min-height:30px;
+  min-width: 30px;
+  cursor:pointer;
+  border-color: green;
+  background-color: transparent;
+  border-width: 3px;
+  border-radius:5px;
+  box-shadow: 3px 3px 5px grey;
+  color:red;
+}
+
+p{
+  font-size: 20px;
+  font-family: Georgia;
+}
