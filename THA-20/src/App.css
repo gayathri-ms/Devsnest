@@ -1,0 +1,45 @@
+h1,h2 {
+  text-align: center;
+}
+
+.Card {
+  height: 450px;
+  width:430px;
+  box-shadow: 5px 5px 10px grey;
+  overflow-y: scroll;
+  border-radius: 10px;
+}
+
+.card2 {
+  height:100px;
+  width:370px;
+  background-color: pink;
+  margin:10px 0px 15px 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey;
+  padding:5px;
+}
+.card-inline{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  justify-content: space-between;
+}
+.title{
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.para{
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.del{
+  height:35px;
+  width:60px;
+  margin-right:10px;
+  margin-top:15px;
+  border: 5px ;
+  border-radius: 7px;
+  box-shadow: 3px 3px 7px;
+}
