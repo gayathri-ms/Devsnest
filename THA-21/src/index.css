@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: Georgia;
+  display:flex;
+  justify-content: center;
+  background: linear-gradient( to top left ,#9c2177, #f50c5e) no-repeat center center fixed ;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

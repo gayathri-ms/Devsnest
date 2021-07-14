@@ -1,0 +1,86 @@
+.item , .calorie{
+ margin:15px 0px 0px 10px;
+  border-radius: 8px;
+  border:3px solid #13300d;
+  height:50px;
+  width:180px;
+  font-family: Georgia;
+  font-size: 17px;
+  background-color: #daf2f0;
+}
+.bcenter{
+  display:grid;
+}
+.button{
+  margin:auto;
+  margin-top:15px;
+  margin-bottom:15px;
+  cursor:pointer;
+  height:50px;
+  width:190px;
+  border-radius:7px;
+  border: 3px ;
+  font-family: Georgia;
+  font-size: 25px;
+  background: linear-gradient( to bottom left , #9316a8, #e662fc) ;
+  box-shadow: 3px 3px 5px black;
+}
+
+.card2 {
+  height:130px;
+  width:370px;
+  background: linear-gradient( to top left ,#9c2177, #f50c5e) ;
+  margin:10px 0px 15px 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+  padding:5px;
+}
+.card-inline{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  justify-content: space-around;
+}
+.title{
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.para{
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.del{
+  height:35px;
+  width:65px;
+  margin-right:10px;
+  margin-top:0px;
+  border: 5px ;
+  border-radius: 7px;
+  box-shadow: 3px 3px 7px;
+  font-family: Georgia;
+  font-size: 18px;
+  background-color: #e9c0f0;
+}
+h2{
+  justify-content: center;
+  align-content: center;
+}
+.form{
+  margin-top:10px;
+}
+.iname , .ical{
+  border-radius: 5px;
+  margin-bottom:10px;
+  border:4px;
+  height:28px;
+  width:280px;
+  margin-left:20px;
+  box-shadow: 3px 3px 5px black;
+  font-family: Georgia;
+  font-size:15px;
+  background-color: #f2d8f2;
+}
+.icenter {
+  text-align: center;
+}
