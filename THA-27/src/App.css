@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.input{
+	margin:10px;
+	border:3px solid #83708c;
+	font-size: 20px;
+	background-color: #e1cceb;
+}
+.addtodo{
+	font-family: Georgia;
+	font-size: 18px;
+	margin:10px;
+	background-color: transparent;
+	cursor:pointer;
+	box-shadow: 2px 2px 5px black;
+	border-radius: 3px; 
+	padding : 8px;
+}
+.cards{
+	display:inline-flex;
+	flex-direction: column;
+}
+.card{
+	display:inline-grid;
+	width:300px;
+	min-height:130px;
+	box-shadow: 3px 3px 8px black;
+	margin:20px;
+	padding:15px;
+}
+.details{
+	margin-top:20px;
+	font-size: 20px;
+	margin-bottom: 20px;
+
+}
+span{
+	line-height:1.5;
+}
+.del{
+	min-width:50px;
+	min-height:20px;
+	font-size: 18px;
+	font-family: Georgia;
+	border-radius: 4px;
+	padding:8px;
+	background-color: transparent;
+	box-shadow: 2px 2px 4px black;
+	cursor:pointer;
+}
