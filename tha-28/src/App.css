@@ -1,3 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 .App {
   text-align: center;
+
+}
+.input{
+  margin:20px;
+  background : transparent;
+  font-size: 20px;
+  font-family: Georgia;
+  border : 2px solid black;
+  padding: 10px;
+
+}
+.in_button{
+  padding:6px;
+  font-size:15px;
+  font-family: Georgia;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px black;
+  cursor:pointer;
+  background : linear-gradient(to bottom , #f7c1c6 , #a7b2f2);
+}
+.report{
+  display:flex;
+  justify-content: center;
+
+}
+.bg_img{
+  background-image: url("https://images.unsplash.com/photo-1627580623617-d0e0eab56848?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80");
+  opacity:0.7;
+  height:400px;
+  width:450px;
+  position:absolute;
+  background-size:cover;
+  filter: blur(2px);
+  border-radius: 10px;
+  z-index: 5;
+  box-shadow: 5px 5px 8px 10px black;
+  margin-top:40px;
+  /*-webkit-filter:blur(3px);*/
+}
+.forecast{
+  z-index:8;
+  margin-top: 40px;
+  position:relative;
+  color:white;
+  font-family: 'Courgette', cursive;
+  font-size: 1.3rem;
+  /*font-weight:10px;*/
+}
+.left{
+  text-align:left;
+  margin-left:-10px;
+}
+.right{
+  text-align: center;
+  margin-left:100px;
+  margin-top: 10px;
 }
