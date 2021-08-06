@@ -48,14 +48,23 @@
   color:white;
   font-family: 'Courgette', cursive;
   font-size: 1.3rem;
+  padding:10px;
   /*font-weight:10px;*/
 }
 .left{
   text-align:left;
-  margin-left:-10px;
+  margin-left:0px;
 }
 .right{
   text-align: center;
-  margin-left:100px;
+  margin-left:70px;
   margin-top: 10px;
+}
+.time_img{
+  height:50px;
+  width:50px;
+  margin-top:-10px;
+}
+.space{
+  margin-left:20px;
 }

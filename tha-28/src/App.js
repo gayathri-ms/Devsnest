@@ -49,12 +49,31 @@ function App() {
           </p>
           <hr/>
           <div style={{display:"flex"}} >
-            {/*<p><img src={totaldata.forecast.forecastday[0].hour[1].condition.icon} alt="" /></p>*/}
-            <p>2</p>
-            <p>3</p>
-            <p>4</p>
-            <p>5</p>
-            <p>6</p>
+            <div className="space">
+              <p style={{marginTop:"-5px" , fontSize:"18px"}} >1AM</p>
+              <img className="time_img" src={totaldata.forecast.forecastday[0].hour[1].condition.icon} alt="" />
+              <p style={{marginTop:"-5px"}} >{totaldata.forecast.forecastday[0].hour[1].temp_c}°C</p>
+            </div>
+             <div className="space">
+              <p style={{marginTop:"-5px" , fontSize:"18px"}} >6AM</p>
+              <img className="time_img" src={totaldata.forecast.forecastday[0].hour[6].condition.icon} alt="" />
+              <p style={{marginTop:"-5px"}} >{totaldata.forecast.forecastday[0].hour[6].temp_c}°C</p>
+            </div>
+             <div className="space">
+              <p style={{marginTop:"-5px" , fontSize:"18px"}} >11AM</p>
+              <img className="time_img" src={totaldata.forecast.forecastday[0].hour[11].condition.icon} alt="" />
+              <p style={{marginTop:"-5px"}} >{totaldata.forecast.forecastday[0].hour[11].temp_c}°C</p>
+            </div>
+             <div className="space">
+              <p style={{marginTop:"-5px" , fontSize:"18px"}} >4PM</p>
+              <img className="time_img" src={totaldata.forecast.forecastday[0].hour[16].condition.icon} alt="" />
+              <p style={{marginTop:"-5px"}} >{totaldata.forecast.forecastday[0].hour[16].temp_c}°C</p>
+            </div>
+             <div className="space">
+              <p style={{marginTop:"-5px" , fontSize:"18px"}} >8PM</p>
+              <img className="time_img" src={totaldata.forecast.forecastday[0].hour[20].condition.icon} alt="" />
+              <p style={{marginTop:"-5px"}} >{totaldata.forecast.forecastday[0].hour[20].temp_c}°C</p>
+            </div>
           </div>
           </div>
           </div>
