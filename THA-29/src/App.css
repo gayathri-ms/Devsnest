@@ -2,7 +2,15 @@
 
 .App {
   text-align: center;
-
+  background: linear-gradient( to bottom ,  #f7c1c6 , #a7b2f2) ;
+  height:100vh;
+  width:100vw;
+}
+.dark{
+  background: linear-gradient(to bottom , black , #241f4f);
+  height:100vh;
+  width:100vw;
+  color:white;
 }
 .input{
   margin:20px;
@@ -13,6 +21,10 @@
   padding: 10px;
 
 }
+.dark_in{
+  border:1.5px solid white;
+  color:white;
+}
 .in_button{
   padding:6px;
   font-size:15px;
@@ -21,6 +33,10 @@
   box-shadow: 2px 2px 3px black;
   cursor:pointer;
   background : linear-gradient(to bottom , #f7c1c6 , #a7b2f2);
+}
+.darkbtn{
+  background : linear-gradient(to bottom , #292638 , #615699);
+  color:white;
 }
 .report{
   display:flex;
@@ -41,6 +57,11 @@
   margin-top:40px;
   /*-webkit-filter:blur(3px);*/
 }
+.dark_img{
+  background-image : url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80");
+  box-shadow: 2px 2px 10px 2px grey;
+  opacity:1;
+}
 .forecast{
   z-index:8;
   margin-top: 40px;
@@ -50,6 +71,9 @@
   font-size: 1.3rem;
   padding:10px;
   /*font-weight:10px;*/
+}
+.dark_txt{
+  color: #c9bccc;
 }
 .left{
   text-align:left;
