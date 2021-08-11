@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+.todo{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.input{
+  font-size:18px;
+  font-family: Georgia;
+  padding:7px;
+  margin-right:10px;
+}
+.btn{
+  font-size:18px;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 5px;
+}
+.card{
+  width: 300px;
+  height:150px;
+  justify-content: center;
+  margin:auto;
+  border : 3px solid black;
+  margin-top:20px;
+  border-radius:5px;
+}
+.todo_title{
+  margin-top:0px;
+  margin-left: 20px;
+  font-size: 25px;
+  margin-bottom:-15px;
+  text-align: left;
+}
+.todo_input{
+  margin-bottom:20px;
+  font-size:16px;
+  padding: 5px;
+  font-family: Georgia;
+}
+.todo_btn{
+  min-width:50px;
+  font-size:17px;
+
+  font-family: Georgia;
+  padding:5px;
+  align-items: center;
+  margin:auto;
+  margin-left:10px;
+  cursor:pointer;
+}
+.todo_chkbx{
+  margin-right:20px;
+  margin-left:10px;
+}
+.todo_done{
+  margin-bottom:20px;
+  margin-top:20px;
+}
