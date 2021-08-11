@@ -1,5 +1,6 @@
-import React , {useState} from "react"
+import React , {useState , useContext} from "react"
 import Todo from "./todo"
+import Theme from "./theme"
 
 interface obj {
 	title:string
@@ -13,6 +14,8 @@ const Todolist = () => {
 	const [value , setValue] = useState<obj>({
 		title: ""
 	})
+
+	const { theme , setTheme } = useContext(Theme)
 
 	const onHandlechange = () => {
 		if(input !== "")
@@ -35,7 +38,7 @@ const Todolist = () => {
 					setValue({...value , title:e.target.value}) 
 					setInput(e.target.value)
 				} }/>
-				<button className="btn" 
+				<button className={ theme ? "btn dark" : "btn" } 
 				onClick={onHandlechange}
 				>Add Todo </button>
 			</div>

@@ -1,6 +1,25 @@
 .App {
   text-align: center;
 }
+.appdark{
+  background: linear-gradient(to bottom , black , #241f4f);
+  height:100vh;
+  width:100vw;
+  color:white;
+}
+.theme_btn{
+  margin:20px;
+  color:black;
+  border-radius: 4px;
+  font-size: 17px;
+  font-family: Georgia;
+  padding : 5px 5px 5px 5px;
+}
+.dark{
+  color: white;
+  border:2px solid white;
+  background : linear-gradient(to bottom , #292638 , #615699);
+}
 .todo{
   margin-top:20px;
   margin-bottom:20px;
@@ -13,8 +32,9 @@
 }
 .btn{
   font-size:18px;
+  font-family: Georgia;
   background-color: transparent;
-  padding: 5px;
+  padding: 8px;
   border-radius: 5px;
 }
 .card{
@@ -25,6 +45,10 @@
   border : 3px solid black;
   margin-top:20px;
   border-radius:5px;
+  box-shadow: 3px 3px 7px black;
+}
+.card{
+  border : 3px solid white;
 }
 .todo_title{
   margin-top:0px;
@@ -42,7 +66,7 @@
 .todo_btn{
   min-width:50px;
   font-size:17px;
-
+  border-radius:4px;
   font-family: Georgia;
   padding:5px;
   align-items: center;
