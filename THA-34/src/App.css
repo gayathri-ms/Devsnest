@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  margin:10px;
+}
+.input{
+	font-size: 18px;
+	padding:5px;
+	margin:10px;
+}
+.addbtn{
+	cursor:pointer;
+	padding:5px;
+	font-size:15px;
+	font-family:Georgia;
+}
+.lists{
+	display:inline-flex;
+}
+.list{
+	margin-left:10px;
+	margin-right:10px;
+	font-size: 17px;
+}
+.btn{
+	cursor:pointer;
+	font-size: 15px;
+	font-family: Georgia;
+}
+.new{
+	margin-top:20px;
+	font-size: 20px;
+}
