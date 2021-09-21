@@ -40,10 +40,10 @@ const Todo = ({todo , setValue , todos , setTodos , i , value} : prop) => {
 				<div>
 					{
 						!isEdit ? 
-						<button className={ theme ? "todo_btn dark" : "todo_btn" } onClick={() => setIsedit(!isEdit)} > 
+						<button className= "todo_btn"  onClick={() => setIsedit(!isEdit)} > 
 						Edit</button> :  
 						
-						<button className={ theme ? "todo_btn dark" : "todo_btn" } 
+						<button className= "todo_btn" 
 						onClick={() => {
 							setIsedit(!isEdit)
 							setTodos([...todos])
@@ -51,7 +51,7 @@ const Todo = ({todo , setValue , todos , setTodos , i , value} : prop) => {
 						Done</button>
 					 }
 					
-					<button className={ theme ? "todo_btn dark" : "todo_btn" }
+					<button className="todo_btn" 
 					 onClick={() => {
 					 	const newtodo : obj[] = todos.filter((todo :obj , index : Number) => i!==index);
 						setTodos(newtodo)

@@ -1,6 +1,7 @@
 body{
 	display: flex;
 	justify-content: center;
+	background-color: #1a4a4f;
 }
 .main{
 	border-radius: 50%;
@@ -9,7 +10,7 @@ body{
 	height: 250px;
 	bottom:30%;
 	position : absolute;
-	background-image: linear-gradient(#F20000,#D996C0);
+	background-image: linear-gradient(to bottom right ,#eb6073,#D996C0);
 
 }
 .seconds,.minute,.hour{

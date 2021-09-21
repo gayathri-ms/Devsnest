@@ -33,12 +33,12 @@ const Todolist = () => {
 	return (
 		<div>
 			<div className="todo" >
-				<input className="input" type="text" value={input} 
+				<input className={ theme ? "input inp_dark" : "input" }  type="text" value={input} 
 				onChange = {(e) => {
 					setValue({...value , title:e.target.value}) 
 					setInput(e.target.value)
 				} }/>
-				<button className={ theme ? "btn dark" : "btn" } 
+				<button className={ theme ? "btn btn_dark" : "btn" } 
 				onClick={onHandlechange}
 				>Add Todo </button>
 			</div>

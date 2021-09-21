@@ -1,0 +1,36 @@
+.nav{
+	display:flex;
+	border-bottom: 1px solid #ccc8be;
+	margin-bottom: 10px;
+	z-index: 1;
+}
+.nav_img{
+	padding:10px;
+	height:35px;
+	width:90px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.nav_inp{
+	font-size: 15px;
+	height:25px;
+	width:200px;
+	margin:auto;
+	font-family: Georgia;
+	text-align: center;
+	border-radius: 4px;
+	opacity:0.3;
+}
+.icons{
+	height:30px;
+	width:30px;
+	padding:10px;
+	cursor: pointer;
+}
+.icons_img{
+	height:30px;
+	width:30px;
+	padding:10px;
+	margin-right:20px;
+	cursor: pointer;
+}

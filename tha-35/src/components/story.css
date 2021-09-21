@@ -1,0 +1,25 @@
+.story{
+	height:100px;
+	width:600px;
+	margin:auto;
+	margin-top:30px;
+	border: 1px solid #e0ddd3;
+	padding:5px;
+	white-space: nowrap;
+	overflow-x:auto;
+	background-color: rgba(245, 240, 223,0.2);
+
+
+}
+.story_img{
+	padding:10px;
+	margin:14px 5px;
+	border-radius: 100%;
+	border:3px solid pink;
+	height:45px;
+	width:45px;
+	display: inline-block;
+}
+.story::-webkit-scrollbar{
+	display:none;
+}

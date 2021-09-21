@@ -1,11 +1,15 @@
 .App {
   text-align: center;
+  width:100%;
+  height:100%;
+  background-size: cover;
+  opacity:1;
 }
 .appdark{
-  background: linear-gradient(to bottom , black , #241f4f);
-  height:100vh;
-  width:100vw;
+  opacity:1;
+  min-height:100vh;
   color:white;
+  background-color: #18191c !important;
 }
 .theme_btn{
   margin:20px;
@@ -14,11 +18,16 @@
   font-size: 17px;
   font-family: Georgia;
   padding : 5px 5px 5px 5px;
+  background-color: #f7e4b5;
+  cursor:pointer;
+  box-shadow:2px 2px 5px black;
 }
 .dark{
   color: white;
   border:2px solid white;
-  background : linear-gradient(to bottom , #292638 , #615699);
+  background-color: transparent;
+  box-shadow:2px 2px 5px white;
+
 }
 .todo{
   margin-top:20px;
@@ -27,8 +36,16 @@
 .input{
   font-size:18px;
   font-family: Georgia;
-  padding:7px;
+  padding:10px;
   margin-right:10px;
+  background-color: transparent;
+  border-radius: 5px;
+
+}
+.inp_dark{
+  background-color: transparent;
+  color:white;
+  border:0.5px solid white;
 }
 .btn{
   font-size:18px;
@@ -36,6 +53,14 @@
   background-color: transparent;
   padding: 8px;
   border-radius: 5px;
+  box-shadow:2px 2px 5px black;
+  cursor:pointer;
+}
+.btn_dark{
+  color:white;
+  border: 1.5px solid white;
+  box-shadow:1px 1px 5px white;
+
 }
 .card{
   width: 300px;
@@ -46,9 +71,15 @@
   margin-top:20px;
   border-radius:5px;
   box-shadow: 3px 3px 7px black;
+  /*margin-bottom:5px;*/
 }
 .card{
   border : 3px solid white;
+}
+.card_dark{
+  background: linear-gradient(to bottom right, #0f2d40 ,#0c1430);
+  box-shadow: 2px 2px 5px white;
+
 }
 .todo_title{
   margin-top:0px;
@@ -62,6 +93,7 @@
   font-size:16px;
   padding: 5px;
   font-family: Georgia;
+  background-color: #f5dfb0;
 }
 .todo_btn{
   min-width:50px;
@@ -73,6 +105,10 @@
   margin:auto;
   margin-left:10px;
   cursor:pointer;
+  background-color: #f7e4b5;
+  box-shadow:2px 2px 5px black;
+
+
 }
 .todo_chkbx{
   margin-right:20px;

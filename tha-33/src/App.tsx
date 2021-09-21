@@ -9,7 +9,7 @@ const  App = () => {
 
   return (
   	<Theme.Provider value={{theme , setTheme}} >
-    	<div className={ theme ? "App appdark" : "App" }>
+    	<div className={ theme ? "appdark App" : "App" }>
     		<Toggle />
     		<Todolist />
       	</div>
